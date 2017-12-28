@@ -34,16 +34,19 @@ textarea {
 
 /* オリジナルで追加 */
 .background {
-    height: 540px;
-    padding-top: 80px;
-    background-image: url("silhouette.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+  margin-top: 30px;
+  height: 540px;
+  background-image: url("silhouette.jpg");
+  background-position : center 60px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 90%;
 }
 
 /* オリジナルで追加 */
 .background-color {
-    background-color: rgba( 170, 170, 170, 0.55 );
+  margin-top: 30px;
+  background-color: rgba( 170, 170, 170, 0.55 );
 }
 
 /* typography */
@@ -180,12 +183,18 @@ input {
   width: 700px;
   margin: 0 auto;
   background-color: rgba( 170, 170, 170, 0.55 );
+  border-radius: 10px;
 }
 
 /* オリジナルで追加 */
-.padding {
+.top-space {
+  margin-top: 40px;
+}
+
+/* オリジナルで追加 */
+.under-space {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #error_explanation {
@@ -215,4 +224,16 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
