@@ -8,4 +8,13 @@
       </h1>
     </section>
   </aside>
+  <div class="col-md-8 users-fashion-list">
+    <% if @user.microposts.any? %>
+      <h3 class="users-list-title">Fashion List (<%= @user.microposts.count %>)</h3>
+      <ol class="microposts">
+        <div class="users-profile-background"><%= render @microposts %></div>
+      </ol>
+      <div class="users-profile-paginate"><%= will_paginate @microposts %></div>
+    <% end %>
+  </div>
 </div>

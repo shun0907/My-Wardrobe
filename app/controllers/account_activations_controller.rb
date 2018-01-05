@@ -1,3 +1,4 @@
+# 第11章　アカウントの有効化
 class AccountActivationsController < ApplicationController
 
   def edit

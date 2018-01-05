@@ -146,7 +146,7 @@ aside {
       line-height: 1;
     }
     h1 {
-      font-size: 1.4em;
+      font-size: 2.0em;
       text-align: left;
       letter-spacing: -1px;
       margin-bottom: 3px;
@@ -162,6 +162,56 @@ aside {
 
 .gravatar_edit {
   margin-top: 15px;
+}
+
+/* オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 */
+/* fashion list */
+
+.fashion-list {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  margin-left: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba( 170, 170, 170, 0.55 );
+  border-radius: 10px;
+}
+
+.list-title {
+  font-size: 3.5em;
+  font-weight: bold;
+  border-bottom: 4px solid;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.feed-background {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+}
+
+.feed-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.feed-contents {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.feed-paginate {
+  text-align: center;
+}
+
+.picture-contents {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* forms */
@@ -234,6 +284,132 @@ input {
   li {
     overflow: auto;
     padding: 10px 0;
-    border-bottom: 1px solid $gray-lighter;
+    border-bottom: 1px solid #9C9C9C;
   }
+}
+
+/* オリジナルで追加 */
+.users-background {
+  height: auto;
+  width: 900px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba( 170, 170, 170, 0.55 );
+  border-radius: 10px;
+}
+
+/* オリジナルで追加 */
+.users-background2 {
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+/* オリジナルで追加 */
+.users-title {
+  font-size: 4.5em;
+  font-weight: bold;
+  border-bottom: 4px solid;
+  padding-top: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* オリジナルで追加 */
+.users-profile {
+  padding-right: 40px;
+}
+
+/* オリジナルで追加 */
+.users-paginate {
+  text-align: center;
+}
+
+/* オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 */
+/* users profile page */
+
+.users-fashion-list {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  margin-left: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba( 170, 170, 170, 0.55 );
+  border-radius: 10px;
+}
+
+.users-list-title {
+  font-size: 3.5em;
+  font-weight: bold;
+  border-bottom: 4px solid;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.users-profile-background {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+}
+
+.users-profile-paginate {
+  text-align: center;
+}
+
+/* microposts */
+
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-bottom: 1px solid #9C9C9C;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
+  }
+}
+
+/* オリジナルで追加 */
+.list-name {
+  font-weight: bold;
 }

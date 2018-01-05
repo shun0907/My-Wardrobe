@@ -1,3 +1,4 @@
+# 第11章　アカウントの有効化
 class AddActivationToUsers < ActiveRecord::Migration[5.0]
   def change
     add_column :users, :activation_digest, :string

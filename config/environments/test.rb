@@ -1,3 +1,4 @@
+# 第11章　アカウントの有効化
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 

@@ -1,3 +1,4 @@
+# 第11章　アカウントの有効化
 require 'test_helper'
 
 class UserMailerTest < ActionMailer::TestCase
