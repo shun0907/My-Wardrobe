@@ -12,9 +12,9 @@
     </section>
   </aside>
   <div class="col-md-8 users-fashion-list">
-    <%= render 'follow_form' if logged_in? %>
+    <div class="follow-form-space"><%= render 'follow_form' if logged_in? %></div>
     <% if @user.microposts.any? %>
-      <h3 class="users-list-title">Fashion List (<%= @user.microposts.count %>)</h3>
+      <h3 class="users-list-title">My Fashion List (<%= @user.microposts.count %>)</h3>
       <ol class="microposts">
         <div class="users-profile-background"><%= render @microposts %></div>
       </ol>
