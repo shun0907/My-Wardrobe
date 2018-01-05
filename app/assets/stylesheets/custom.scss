@@ -164,7 +164,55 @@ aside {
   margin-top: 15px;
 }
 
-/* オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 */
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid $gray-lighter;
+    color: gray;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: blue;
+    }
+  }
+  strong {
+    display: block;
+  }
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+  a {
+    padding: 0;
+  }
+}
+
+.users.follow {
+  padding: 0;
+}
+
+/* オリジナルで追加 */
+/* Update your profile */
+
+.under-space-Update {
+  font-size: 2.0em;
+  text-decoration: underline;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+/* オリジナルで追加 */
 /* fashion list */
 
 .fashion-list {
@@ -328,7 +376,7 @@ input {
   text-align: center;
 }
 
-/* オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 オリジナルで追加 */
+/* オリジナルで追加 */
 /* users profile page */
 
 .users-fashion-list {
